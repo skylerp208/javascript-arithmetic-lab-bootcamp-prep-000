@@ -1,5 +1,6 @@
 var x = 1
 var y = 5
+var z = '1'
 function add(x,y) {
   return x + y
 }
@@ -17,4 +18,7 @@ function inc(x) {
 }
 function dec(x) {
   return x -= 1
+}
+function makeInt(z) {
+  parsenInt(z)
 }
