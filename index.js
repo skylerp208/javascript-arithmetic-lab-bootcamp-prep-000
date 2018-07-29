@@ -1,6 +1,7 @@
 var x = 1
 var y = 5
 var z = '1'
+var n = '9000'
 function add(x,y) {
   return x + y
 }
@@ -21,4 +22,7 @@ function dec(x) {
 }
 function makeInt(z) {
   return parseInt(z)
+}
+function makeInt(n) {
+  return parseInt(n , 10)
 }
