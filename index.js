@@ -20,5 +20,5 @@ function dec(x) {
   return x -= 1
 }
 function makeInt(z) {
-  parseInt(z)
+  return parseInt(z)
 }
